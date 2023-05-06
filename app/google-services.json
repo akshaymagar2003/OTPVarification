@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "11328409145",
+    "project_id": "otp-varification-105bd",
+    "storage_bucket": "otp-varification-105bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11328409145:android:a910b2d11bb8dd18bf47e8",
+        "android_client_info": {
+          "package_name": "com.example.otpvarification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11328409145-t9jgeshpjj5iiba75vmqmpgbuqe5t4dg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvaMv8QAISoRaSHm2AN3qGMRcI2sH_rFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11328409145-t9jgeshpjj5iiba75vmqmpgbuqe5t4dg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
