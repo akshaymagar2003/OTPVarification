@@ -19,10 +19,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         auth=FirebaseAuth.getInstance()
         currentUser=auth.currentUser
+
     }
     fun logout(view: View){
         auth.signOut()
         login()
+
     }
     fun login(){
         val loginIntent= Intent(this@MainActivity,LoginActivity::class.java)

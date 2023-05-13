@@ -103,7 +103,7 @@ class LoginActivity : AppCompatActivity() {
 
                     val user = task.result?.user
                     send_home()
-                } else {
+                }else {
                     // Sign in failed, display a message and update the UI
                     Log.w(TAG, "signInWithCredential:failure", task.exception)
                     if (task.exception is FirebaseAuthInvalidCredentialsException) {
